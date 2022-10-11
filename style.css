@@ -19,7 +19,10 @@ width: 70px;
 height: 70px;
 border-radius: 50px;
 }
-
+.cart_text_item{
+    display: flex;
+    flex-wrap: nowrap;
+}
 .web_name{
 color: #b4dfe5;
 font-weight:bolder;
@@ -45,10 +48,7 @@ font-size: 40px;
     display: flex;
     justify-content: center;
 }
-.shopping_cart_item{
-    /* display: flex;
-    justify-content: space-between; */
-}
+
 
 .cart_item{
     display: flex;
@@ -60,18 +60,24 @@ font-size: 40px;
 .shopping_cart_text{
 color: #303c6c;
 font-size: 18px;
+line-break: anywhere;
+margin-left: 20px;
 
 }
 .cart_button{
     color:#303c6c;
     padding: 0px 5px;
     border: 2px solid  #303c6c;
+    width: 20px;
+    height: 21px;
 }
 .input_number{
-    width: 20px;
+
     text-align: center;
     color: #303c6c;
     border: 2px solid  #303c6c;
+    width: 50px;
+    height: 15px;
 
 }
 
@@ -131,7 +137,10 @@ font-size: 18px;
     width: 100%;
     align-items: center;
 }
-
+.text_item_cart{
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 @media only screen and  (max-width:480px ) {
     .item{
@@ -146,18 +155,29 @@ font-size: 18px;
 
        flex-direction: column;
      }
+     .cart_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
   }
   @media only screen and  (min-width:481px ) and (max-width:768px)
 {
+    /* .modal-container  #modal-toggle:checked ~ .modal-backdrop .modal-content { */
+        
     .item{
         width: 48%;
     }
+
+
 }
 @media only screen and  (min-width:769px ) and (max-width:1279px) {
     
     .item{
         width: 30%;
     }
+
 
 }
 
@@ -206,9 +226,9 @@ font-size: 18px;
 .modal-container  #modal-toggle:checked ~ .modal-backdrop .modal-content {
   background-color: #fff;
   max-width: 400px;
-  width: 100%;
   height: auto;
   padding: 10px 30px;
+  margin: 30px;
   position: absolute;
   left: calc(50% - 200px);
   top: 12%;
@@ -222,13 +242,13 @@ font-size: 18px;
 .modal-container  #modal-toggle:checked ~ .modal-backdrop .modal-content { left: 0; }
 }
 .modal-container  #modal-toggle:checked ~ .modal-backdrop .modal-content .modal-close {
-  color: #666;
+  color: #303c6c;
   position: absolute;
-  right: 2px;
-  top: 0;
+  right: 20px;
+  top: 10px;
   padding-top: 7px;
   background: #fff;
-  font-size: 16px;
+  font-size: 30px;
   width: 25px;
   height: 28px;
   font-weight: bold;
