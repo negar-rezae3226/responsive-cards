@@ -8,14 +8,7 @@
  url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff2') format('woff2');
 }
 
-body{
 
-    background-color: var(--primary);
-    direction: rtl;
-    font-family: Spectral, serif;
-    margin: 0;
-    font-family: sahel;
-}
 .menu{
     display: flex;
     flex-direction: column;
@@ -190,3 +183,37 @@ margin-left: 20px;
 .modal-container #modal-toggle:checked~.modal-backdrop .modal-content .modal-close:hover {
     color: #333;
 }
+
+
+
+.menu_web {
+    background-color: var(--sticky_menu);
+    color: var(--titr);
+    display: flex;
+    width: 100%;
+    height: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+
+
+}
+
+.text_menu_web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 40px;
+
+}
+
+.text_menu_web p {
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 900;
+
+}
+
