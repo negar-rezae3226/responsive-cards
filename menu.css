@@ -110,3 +110,83 @@ margin-left: 20px;
     height: 15px;
 
 }
+
+.modal-container {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal-container .modal-backdrop {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in;
+}
+
+.modal-container #modal-toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.modal-container #modal-toggle:checked~.modal-backdrop {
+    background-color: var(--modal_backdrop);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.modal-container #modal-toggle:checked~.modal-backdrop .modal-content {
+    background-color: var(--icon-cart);
+    max-width: 400px;
+    height: auto;
+    padding: 10px 30px;
+    margin: 30px;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: 12%;
+    border-radius: 4px;
+    z-index: 999;
+    pointer-events: auto;
+    cursor: auto;
+    box-shadow: 0 3px 7px var(--modal_backdrop);
+}
+
+@media (max-width: 400px) {
+    .modal-container #modal-toggle:checked~.modal-backdrop .modal-content {
+        left: 0;
+    }
+}
+
+.modal-container #modal-toggle:checked~.modal-backdrop .modal-content .modal-close {
+    color: var(--secondary);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding-top: 7px;
+    background: var(--icon-cart);
+    font-size: 30px;
+    width: 25px;
+    height: 28px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal-container #modal-toggle:checked~.modal-backdrop .modal-content .modal-close:hover {
+    color: #333;
+}
