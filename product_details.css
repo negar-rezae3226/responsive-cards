@@ -1,14 +1,24 @@
+@font-face{
+    font-family: 'sahel';
+    src: url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.ttf') format('truetype'),
+    url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff') format('woff'),
+    url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff2') format('woff2');
+   }
+
 body{
     margin: 0px;
     background-color: white;
     direction: rtl;
     font-family: Spectral, serif;
     margin: 0px;
+    font-family: MyFontName, 'Segoe UI', Tahoma, sans-serif;
+    font-family: sahel;
 }
 .menu{
     display: flex;
     flex-direction: column;
 }
+
 .menubar{
 display: flex;
 height: 100px;
@@ -330,6 +340,7 @@ padding: 7px;
 height: 45px;
 border: 2px solid #303c6c;
 background-color: #303c6c;
+font-family: sahel;
 }
 .button{
     display: flex;
