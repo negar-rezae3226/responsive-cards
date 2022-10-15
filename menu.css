@@ -1,0 +1,112 @@
+@import url("them.css");
+@import url("varriables.css");
+
+@font-face{
+ font-family: 'sahel';
+ src: url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.ttf') format('truetype'),
+ url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff') format('woff'),
+ url('assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff2') format('woff2');
+}
+
+body{
+
+    background-color: var(--primary);
+    direction: rtl;
+    font-family: Spectral, serif;
+    margin: 0;
+    font-family: sahel;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menubar{
+display: flex;
+height: 100px;
+background-color: var(--secondary);
+justify-content: space-between;
+align-items: center;
+padding-left: 50px;
+padding-right: 50px;
+margin: 0px;
+
+}
+
+.logo{
+width: 70px;
+height: 70px;
+border-radius: 50px;
+}
+.web_name{
+color: var(--titr);
+font-weight:bolder;
+font-size: 40px;
+}
+.icon{
+    position: relative;
+}
+.icon .cart_count{
+    position: absolute;
+    border-radius: 50%;
+    font-size: 12px;
+    background: var(--cart_count);
+    color: var(--icon-cart);
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    right: 0;
+}
+.icon_menu{
+    color: var(--titr);
+    font-weight:bolder;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shopping_cart{
+    padding-left: 40px;
+
+}
+.shopping_cart_title{
+    font-size: large;
+    font-weight: bold;
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+}
+
+
+.cart_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    align-content: center;
+}
+.shopping_cart_text{
+color: var(--secondary);
+font-size: 18px;
+line-break: anywhere;
+margin-left: 20px;
+
+}
+.cart_button{
+    color:var(--secondary);
+    padding: 0px 5px;
+    border: 2px solid  var(--secondary);
+    width: 20px;
+    height: 21px;
+}
+.input_number{
+
+    text-align: center;
+    color: var(--secondary);
+    border: 2px solid  var(--secondary);
+    width: 50px;
+    height: 15px;
+
+}
