@@ -1,0 +1,12 @@
+:root{
+    --primary:whitesmoke;
+    --secondary:#303c6c;
+    --titr:#b4dfe5;
+    --cart_count:red;
+    --icon-cart:white;
+    --item_border:#e6e6e6;
+    --box_shadow:#b3b3b3;
+    --modal_backdrop:rgba(0, 0, 0, 0.6);
+    --sticky_menu:midnightblue;
+    
+}
