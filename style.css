@@ -48,6 +48,9 @@ body {
 
 .icon {
     position: relative;
+    font-size: xx-large;
+    color: var(--titr);
+    background-color: var(--secondary);
 }
 
 .icon .cart_count {
@@ -56,8 +59,8 @@ body {
     font-size: 12px;
     background: var(--cart_count);
     color: var(--icon-cart);
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +121,7 @@ body {
     color: var(--secondary);
     border: 2px solid var(--secondary);
     width: 50px;
-    height: 15px;
+    height: 35px;
 
 }
 
@@ -241,6 +244,8 @@ body {
 .cart_text_item {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-links {
@@ -268,7 +273,7 @@ body {
 
 .item {
     /* border: 1px var(--item_border) solid; */
-    box-shadow: 10px 10px 5px var(--box_shadow);
+    /* box-shadow: 10px 10px 5px var(--box_shadow); */
     margin: 10px;
     position: relative;
     /* display: flex;
@@ -415,3 +420,56 @@ body {
         width: 22%;
     }
 }
+.drowdown_menu_icon{
+    color: var(--titr);
+    background-color: var(--secondary);
+    font-size: xx-large;
+}
+.dropdown_icon{
+    color:var(--secondary);
+}
+
+.btn-link:hover{
+    text-decoration: none;
+}
+.shopping_cart .btn {
+    background-color: var(--secondary);
+    border: var(--secondary);
+}
+/* .row{
+    display: flex;
+    justify-content: center;
+} */
+/* .container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.btn
+{
+    border: 0px solid var(--secondary);
+}
+/* .btn-primary:hover{
+    background-color:  var(--secondary);
+
+} */
+.shopping_cart_button{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.btn:focus{
+    box-shadow: o o o o var(--secondary) ;
+}
+.btn-primary:active
+{
+    box-shadow: o o o o var(--secondary) ;
+}
+
+.btn:active,.btn:focus{
+    background-color: transparent !important;
+    border: 0px !important;
+    box-shadow: none !important;
+}
+
