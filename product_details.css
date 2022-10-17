@@ -6,11 +6,9 @@
    }
 
 body{
-    margin: 0px;
     background-color: var(--icon-cart);
     direction: rtl;
     font-family: Spectral, serif;
-    margin: 0px;
     font-family: MyFontName, 'Segoe UI', Tahoma, sans-serif;
     font-family: sahel;
 }
@@ -119,11 +117,11 @@ body{
 }
 
 .container{
-    display: flex;
+    /* display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: row;
-    padding-top: 70px;
+    padding-top: 70px; */
 
 
 }
