@@ -11,47 +11,13 @@ body{
     font-family: Spectral, serif;
     font-family: MyFontName, 'Segoe UI', Tahoma, sans-serif;
     font-family: sahel;
+    margin: 0;
 }
 
 
-@media only screen and  (max-width:480px ) {
-
-    
-     .cart_item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-     }
-     .product_img{
-        
-
-     }
-  }
-  @media only screen and  (min-width:481px ) and (max-width:768px)
-{
-        
-    /* .item{
-        width: 48%;
-    } */
-
-
+.comment{
+    min-width:90VW;
 }
-@media only screen and  (min-width:769px ) and (max-width:1279px) {
-    
-    /* .item{
-        width: 30%;
-    } */
-
-
-}
-
-@media only screen and (min-width:1280px) {
-    /* .item{
-        width: 22%;
-    } */
-}
-
 
 .product_img{
     height: 400px;
@@ -105,7 +71,7 @@ body{
     border: 1px var(--item_border) solid;
     /* padding-right: 30px; */
     /* width: 30%; */
-    height: 400px;
+    height: auto;
     width: 300px;
     display: flex;
     align-items: center;
@@ -174,3 +140,20 @@ body{
     border-radius: 30px;
 
 }
+/* .post{
+        border: 1px var(--item_border) solid;
+    /* padding-right: 30px; */
+    /* width: 30%; 
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    background-color: var(--white);
+    justify-content: center;
+    border-radius: 15px;
+
+} */
+/* .comment{
+    min-width:1200px;
+} */
