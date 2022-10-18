@@ -400,6 +400,12 @@ body {
     .web_name{
         display: none;
     }
+    /* .icon-footer{
+        display: none;
+    } */
+    .responsive{
+        display: none;
+    }
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) {
@@ -490,4 +496,10 @@ align-items: center;
         background-color: transparent !important;
         border: 0px !important;
         box-shadow: none !important;
+}
+.footer-style{
+    background-color: var(--item_border);
+}
+.footer-icon{
+    font-size: 80px;
 }
