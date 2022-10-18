@@ -12,6 +12,13 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.min.css" />
         <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
+        <style>
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+                width: 70%;
+                margin: auto;
+            }
+        </style>
 
 </head>
 
@@ -185,6 +192,7 @@
     <div class="text d-flex  justify-content-center">
         <h1 class="font-weight-bold pt-5 pb-4 mr-5">جدیدترین محصولات </h1>
     </div>
+
     <div class="container">
 
         <div class="row">
@@ -226,7 +234,7 @@
                 </a>
                     <div class="card-body">
                         <div class="description">
-                            <h4 class="card-title my-3">Samsung Galaxy Z Fold 4</h4>
+                            <h4 class="card-title my-3"> Galaxy Z Fold 4</h4>
                             <p class="card-text">60,000,000</p>
                             <a href="#" class="btn btn-primary">افزودن به سبد خرید</a>
                         </div>
@@ -464,13 +472,12 @@
 
 
     </div>
-
-
-
-    <br>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      $('.carousel').carousel()  
+    </script>
 </body>
 
 </html>
