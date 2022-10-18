@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-rtl.min.css">
+    <title>تماس با ما</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral|Rubik">
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="call-form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="menubar d-flex align-items-center  justify-content-between">
+        <div class="logo_menu">
+            <a href="http://127.0.0.1:5500/index.html#">
+                <img src="/assets/images/logo.jpg" alt="logo" class="logo "></a>
+        </div>
+        <div class="web_name">
+            <p class="pt-4 ">Technology</p>
+        </div>
+        <div class="icon_menu d-flex flex-row ">
+
+            <div class="shopping_cart">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <div class="icon">
+                        <i class="mdi mdi-cart"></i>
+                        <span class="cart_count">0</span>
+                    </div>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h5 class="modal-title container" id="exampleModalLabel">سبد خرید</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="shopping_cart_item">
+                                    <div class="d-flex flex-row align-content-center justify-content-between pt-2">
+                                        <div
+                                            class="cart_text_item d-flex flex-nowrap justify-content-center align-items-center">
+                                            <img src="/assets/images/iphon13promax.jpg" alt="iphon13promax"
+                                                class="logo pl-2">
+                                            <p class="shopping_cart_text">iphon 13 pro max</p>
+                                        </div>
+                                        <div
+                                            class="shopping_cart_button d-flex justify-content-center align-items-center">
+                                            <button type="button" class="btn btn-outline-info ml-2">+</button>
+                                            <input type="text" class="input_number">
+                                            <button type="button" class="btn btn-outline-info mr-2">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shopping_cart_item">
+                                    <div class=" d-flex flex-row align-content-center justify-content-between pt-2">
+                                        <div
+                                            class="cart_text_item d-flex flex-nowrap justify-content-center align-items-center">
+                                            <img src="/assets/images/samsung-s22-ultra-rose.png" alt="iphon13promax"
+                                                class="logo pl-2">
+                                            <p class="shopping_cart_text">Samsung S22 Ultra</p>
+                                        </div>
+                                        <div class="shopping_cart_button">
+                                            <button type="button" class="btn btn-outline-info ml-2">+</button>
+                                            <input type="text" class="input_number">
+                                            <button type="button" class="btn btn-outline-info mr-2">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shopping_cart_item">
+                                    <div class="d-flex flex-row align-content-center justify-content-between pt-2">
+                                        <div
+                                            class="cart_text_item d-flex flex-nowrap justify-content-center align-items-center">
+                                            <img src="/assets/images/mi-11-Ultra-xiaomi.jpg" alt="iphon13promax"
+                                                class="logo pl-2">
+                                            <p class="shopping_cart_text">Xiaomi 11 ultra</p>
+                                        </div>
+                                        <div class="shopping_cart_button">
+                                            <button type="button" class="btn btn-outline-info ml-2">+</button>
+                                            <input type="text" class="input_number">
+                                            <button type="button" class="btn btn-outline-info mr-2">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shopping_cart_item">
+                                    <div class="d-flex flex-row align-content-center justify-content-between pt-2">
+                                        <div
+                                            class="cart_text_item d-flex flex-nowrap justify-content-center align-items-center">
+                                            <img src="/assets/images/z fold.jpg" alt="iphon13promax" class="logo pl-2">
+                                            <p class="shopping_cart_text">Samsung Z Fold 4</p>
+                                        </div>
+                                        <div class="shopping_cart_button">
+                                            <button type="button" class="btn btn-outline-info ml-2">+</button>
+                                            <input type="text" class="input_number">
+                                            <button type="button" class="btn btn-outline-info mr-2">-</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hamburger_menu">
+                <div class="dropdown">
+                    <button class="btn  drowdown_menu_icon " type="button" data-toggle="dropdown" aria-expanded="false">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item text-right " href="#"><i
+                                class="mdi mdi-login-variant dropdown_icon pl-2"></i>ورود </a>
+                        <a class="dropdown-item text-right" href="#"><i
+                                class="mdi mdi-file-sign dropdown_icon pl-2"></i>ثبت
+                            نام</a>
+                        <a class="dropdown-item text-right" href="#"><i
+                                class="mdi mdi-logout-variant dropdown_icon pl-2"></i>خروج کاربر</a>
+                        <a class="dropdown-item text-right" href="#"><i
+                                class="mdi mdi-information dropdown_icon pl-2"></i>اطلاعات کاربر</a>
+                        <a class="dropdown-item text-right" href="#"><i
+                                class="mdi mdi-ticket dropdown_icon pl-2"></i>سوابق تراکنش</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#03045e;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbarcollapse " id="navbarSupportedContent">
+            <ul class="navbar-nav  ml-auto ">
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="#">
+                        <p><i class="mdi mdi-fire"></i> پرفروش ترین ها </p>
+                    </a>
+                </li>
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="#">
+                        <p><i class="mdi mdi-percent"></i> تخفیف ها و پیشنهاد ها </p>
+                    </a>
+                </li>
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="#">
+                        <p><i class="mdi mdi-brightness-percent"></i>شگفت انگیز </p>
+                    </a>
+                </li>
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="#">
+                        <p><i class="mdi mdi-home"></i>خانه </p>
+                    </a>
+                </li>
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="#">
+                        <p><i class="mdi mdi-advertisements"></i>تبلیغات </p>
+                    </a>
+                </li>
+                <li class="nav-item pl-2 pt-2">
+                    <a class="nav-link" href="http://127.0.0.1:5500/call-form.html">
+                        <p><i class="mdi mdi-phone"></i> تماس با ما </p>
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mt-5 p-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title d-flex justify-content-start font-weight-bold pt-5 mb-5">
+                    تماس با ما
+                </h1>
+                <div class="col-12">
+                    <div class="alert alert-dark mt-5 mb-5" role="alert">
+                        لطفاً پیش از ارسال ایمیل، ابتدا پرسش‌‌های متداول را مشاهده کنید.
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group col-lg-6 col-xl-6 col-sm-12 col-md-6 d-flex flex-column">
+                <label for="exampleFormControlSelect1">موضوع:</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>موضوع را انتخاب کنید</option>
+                    <option>پیشنهاد</option>
+                    <option>انتقاد و شکایات</option>
+                    <option>پیگیری سفارش</option>
+                    <option>پشتیبانی</option>
+                    <option>استعلام گارانتی</option>
+                    <option>سایر موضوعات</option>
+                </select>
+            </div>
+
+            <!-- <div class="col-6 d-flex flex-column ">
+                <label for="topic-select" class="label-style">موضوع:</label>
+                <select name="topic" id="topic-select" class="p-2">
+                    <option value="">موضوع را انتخاب کنید</option>
+                    <option value="dog">پیشنهاد </option>
+                    <option value="cat">انتقاد و شکایات</option>
+                    <option value="hamster">پیگیری سفارش </option>
+                    <option value="parrot">پشتیبانی</option>
+                    <option value="spider">استعلام گارانتی </option>
+                    <option value="goldfish">ز موضوعات</option>
+                </select>
+            </div> -->
+
+            <div class="col-lg-6 col-xl-6 col-sm-12 col-md-6 form-example d-flex flex-column mb-3">
+                <label for="name">نام و نام خانوادگی :</label>
+                <input class="form-control" type="text" class="p-2">
+                <!-- <input type="text" class="p-2" name="name" id="name" required> -->
+            </div>
+
+            <div class="form-group col-lg-6 col-xl-6 col-sm-12 col-md-6 d-flex flex-column">
+                <label for="exampleInputEmail1">ایمیل:</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+
+            <!-- <div class="col-6 d-flex flex-column">
+                <label for="name" class="label-style"> ایمیل :</label>
+                <input type="email" name="email" id="email" class="p-2">
+            </div> -->
+            <div class="col-lg-6 col-xl-6 col-sm-12 col-md-6 d-flex flex-column">
+                <label for="name">تلفن تماس :</label>
+                <input class="form-control" type="text" class="p-2">
+            </div>
+            <div class="col-12 mt-5 mb-5">
+
+                <label for="name"> جنسیت :</label>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="male" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        مرد
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="female" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        زن
+                    </label>
+                </div>
+
+                <!-- <div>
+                    <input type="radio" id="men" name="drone" value="men" checked>
+                    <label for="male">مرد</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="female" name="drone" value="female">
+                    <label for="female">زن</label>
+                </div> -->
+            </div>
+            <div class="form-group col-12 pb-3">
+                <label for="exampleFormControlTextarea1">متن پیام:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+
+            <!-- <div class="col-12 d-flex pb-5">
+                <label for="story" class="label-style pl-3 ">متن پیام:</label>
+                <textarea id="story" name="story" rows="8" cols="100">
+                </textarea>
+            </div> -->
+
+            <div class="form-group form-check col-12 mr-4">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">به ایمیل جواب ارسال شود.</label>
+            </div>
+            <!-- <div class="col-12 mr-5">
+                <input type="checkbox" id="scales" name="scales" checked>
+                <label for="scales">به ایمیل جواب ارسال شود. </label>
+            </div> -->
+
+            <!-- <div>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded mr-2" alt="...">
+                      <strong class="mr-auto">Bootstrap</strong>
+                      <small class="text-muted">11 mins ago</small>
+                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+            </div> -->
+            <!-- <div>
+                <button type="button" class="btn btn-primary" id="button2">ujhhlkj</button>
+                <div class="toast" id="toast2">
+                    <div class="toast-header">
+                        header
+                    </div>
+                    <div class="toast-body">
+                        content
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </div>
+    <!-- <script>
+        $(document).ready(function () {
+            $('#button2').click(function () {
+                $('#toast2').toast('show');
+            });
+        });
+    </script> -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
