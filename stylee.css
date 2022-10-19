@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "sahel";
+  src: url("assets/font/sahel-font-v1.0.0-alpha14/Sahel.ttf") format("truetype"), url("assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff") format("woff"), url("assets/font/sahel-font-v1.0.0-alpha14/Sahel.woff2") format("woff2");
+}
+body {
+  background-color: whitesmoke;
+  direction: rtl;
+  font-family: Spectral, serif;
+  margin: 0;
+  font-family: sahel;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menubar {
+  height: 100px;
+  background-color: #303c6c;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+.web_name {
+  color: #b4dfe5;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.icon {
+  position: relative;
+  font-size: xx-large;
+  color: #b4dfe5;
+  background-color: #303c6c;
+}
+.icon .cart_count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 12px;
+  background: red;
+  color: white;
+  height: 17px;
+  width: 15px;
+  bottom: 10px;
+  right: 0;
+}
+
+.icon_menu {
+  color: #b4dfe5;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.shopping_cart {
+  padding-left: 40px;
+}
+
+.shopping_cart_text {
+  color: #303c6c;
+  font-size: 18px;
+  line-break: anywhere;
+  margin-left: 20px;
+}
+
+.input_number {
+  text-align: center;
+  color: var(--secondary);
+  border: 2px solid var(--secondary);
+  width: 50px;
+  height: 35px;
+}/*# sourceMappingURL=stylee.css.map */
